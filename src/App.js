@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from "react";
+import api from './components/api';
+import Table from './components/Table';
 import './App.css';
+import logo from './logo.svg';
 
 function App() {
+  const [hiringList, setHiringList] = useState([]);
+
+  useEffect(() => {
+    api.getHiringList()
+    .then(list => {
+      console.log(list);
+    })
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }
