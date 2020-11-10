@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  padding: 25px;
+  padding: 50px 100px;
 }
 
 .App-logo {
@@ -41,4 +41,8 @@
 .data-table {
   box-shadow: 0 1px 8px -1px rgba(0, 0, 0, 0.2);
   margin-top: 8px;
+}
+
+.hiring-list {
+  padding-bottom: 20px;
 }

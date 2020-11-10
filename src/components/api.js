@@ -1,6 +1,8 @@
 const getRequest = function(url) {  
   return new Promise((resolve, reject) => {
-      fetch(url)
+      fetch(url, {
+        method: "GET"
+      })
       .then(res => {
         resolve(res.json());
       })
