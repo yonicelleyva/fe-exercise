@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fe-exercise/static/css/main.efbb4f49.chunk.css",
+    "main.js": "/fe-exercise/static/js/main.059625b5.chunk.js",
+    "main.js.map": "/fe-exercise/static/js/main.059625b5.chunk.js.map",
+    "runtime-main.js": "/fe-exercise/static/js/runtime-main.fb067830.js",
+    "runtime-main.js.map": "/fe-exercise/static/js/runtime-main.fb067830.js.map",
+    "static/js/2.03e28af1.chunk.js": "/fe-exercise/static/js/2.03e28af1.chunk.js",
+    "static/js/2.03e28af1.chunk.js.map": "/fe-exercise/static/js/2.03e28af1.chunk.js.map",
+    "static/js/3.3bec6081.chunk.js": "/fe-exercise/static/js/3.3bec6081.chunk.js",
+    "static/js/3.3bec6081.chunk.js.map": "/fe-exercise/static/js/3.3bec6081.chunk.js.map",
+    "index.html": "/fe-exercise/index.html",
+    "static/css/main.efbb4f49.chunk.css.map": "/fe-exercise/static/css/main.efbb4f49.chunk.css.map",
+    "static/js/2.03e28af1.chunk.js.LICENSE.txt": "/fe-exercise/static/js/2.03e28af1.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/fe-exercise/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb067830.js",
+    "static/js/2.03e28af1.chunk.js",
+    "static/css/main.efbb4f49.chunk.css",
+    "static/js/main.059625b5.chunk.js"
+  ]
+}
